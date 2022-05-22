@@ -1,10 +1,10 @@
 
-# KEEP ON TRACK - A backend solution for Project Management application.
+# KEEP ON TRACK - A Fullstack app for Project Management made with JAVA & REACT.
 
 
 
 
-# End Point URL :
+# Application URL :
 
  https://keepontrack.herokuapp.com/
  
