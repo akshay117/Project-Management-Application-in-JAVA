@@ -31,6 +31,7 @@ public class CustomUserDetailsService implements UserDetailsService {
         User user = userRepository.getById(id);
         if(user==null) new UsernameNotFoundException("User not found");
         user.getFullName();
-        return user; //FIX -> Hibernate.unproxy(user, User.class);
+        return user; //FIX -> Hibernate.unproxy(user, User.class)
+
     }
 }
